@@ -32,6 +32,6 @@ struct MinutesAndSecondsPicker: View {
             .frame(maxWidth: 200, maxHeight: 100)
             .disabled(!isPickerEnabled)
         }
-            .padding()
+        .padding()
     }
 }

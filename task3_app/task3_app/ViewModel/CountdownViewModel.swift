@@ -8,14 +8,12 @@
 import Foundation
 class CountdownViewModel: ObservableObject {
     static let shared = CountdownViewModel()
-
+    
     @Published var remainingTime: TimeInterval = 0
     private var timer: Timer?
-
-    private init() {
-        // Private initializer to ensure this class remains a singleton.
-    }
-
+    
+    private init() {}
+    
     func startTimer(withDuration duration: TimeInterval) {
         stopTimer()
         remainingTime = duration
@@ -33,16 +31,11 @@ class CountdownViewModel: ObservableObject {
         remainingTime = duration
     }
     
-    func pauseTimer() {
-        timer?.invalidate()
-        timer = nil
-    }
-    
     func stopTimer() {
         timer?.invalidate()
         timer = nil
     }
-
+    
     func formattedTime() -> String {
         let minutes = Int(remainingTime) / 60
         let seconds = Int(remainingTime) % 60

@@ -6,15 +6,17 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct task3_appApp: App {
-    let persistenceController = PersistenceController.shared
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
             TimerView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+

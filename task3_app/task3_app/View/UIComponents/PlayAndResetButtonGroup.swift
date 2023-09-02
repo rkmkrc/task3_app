@@ -10,7 +10,6 @@ import SwiftUI
 struct PlayAndResetButtonGroup: View {
     @Binding var minutes: Int
     @Binding var seconds: Int
-    @Binding var isTimerRunning: Bool
     @Binding var isPickerEnabled: Bool
     @Binding var isButtonInPlayMode: Bool
     @Binding var isButtonInSetMode: Bool
@@ -21,21 +20,26 @@ struct PlayAndResetButtonGroup: View {
             Button(action: {
                 let remainingTime = CountdownViewModel.shared.remainingTime
                 
+                // Prevent to button change to pause when all 0.
                 if minutes == 0 && seconds == 0 && remainingTime == 0 {
                     isButtonInPlayMode = true
                     return
                 }
+                // Start the timer.
                 if isButtonInPlayMode && remainingTime == 0 && isCountdownSet {
-                    // Buraya girdiğinde set modda olmalı
                     let totalSeconds = minutes * 60 + seconds
                     CountdownViewModel.shared.startTimer(withDuration: TimeInterval(totalSeconds))
                     isButtonInPlayMode = false
                     isPickerEnabled = false
-                } else if isButtonInPlayMode && remainingTime != 0 {
+                }
+                // Continue the paused counting down.
+                else if isButtonInPlayMode && remainingTime != 0 {
                     CountdownViewModel.shared.startTimer(withDuration: CountdownViewModel.shared.remainingTime)
                     isButtonInPlayMode = false
                     isPickerEnabled = false
-                } else {
+                }
+                // Pause the timer.
+                else {
                     CountdownViewModel.shared.stopTimer()
                     isButtonInPlayMode = true
                     isPickerEnabled = true

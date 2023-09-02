@@ -10,14 +10,15 @@
 		7D449E822AA2469100A52E88 /* task3_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E812AA2469100A52E88 /* task3_appApp.swift */; };
 		7D449E862AA2469300A52E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D449E852AA2469300A52E88 /* Assets.xcassets */; };
 		7D449E892AA2469300A52E88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D449E882AA2469300A52E88 /* Preview Assets.xcassets */; };
-		7D449E8B2AA2469300A52E88 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E8A2AA2469300A52E88 /* Persistence.swift */; };
-		7D449E8E2AA2469300A52E88 /* task3_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E8C2AA2469300A52E88 /* task3_app.xcdatamodeld */; };
 		7D449E952AA246DA00A52E88 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E942AA246DA00A52E88 /* TimerView.swift */; };
 		7D449E992AA24CD300A52E88 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E982AA24CD300A52E88 /* CountdownView.swift */; };
 		7D449E9B2AA24D5500A52E88 /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E9A2AA24D5500A52E88 /* CountdownViewModel.swift */; };
 		7D449E9D2AA24E1000A52E88 /* MinutesAndSecondsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449E9C2AA24E1000A52E88 /* MinutesAndSecondsPicker.swift */; };
-		7D449EA52AA2842300A52E88 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449EA42AA2842300A52E88 /* TestView.swift */; };
 		7D449EA72AA2990300A52E88 /* PlayAndResetButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449EA62AA2990300A52E88 /* PlayAndResetButtonGroup.swift */; };
+		7D449EA92AA372A000A52E88 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D449EA82AA372A000A52E88 /* song.mp3 */; };
+		7D449EAB2AA3824E00A52E88 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449EAA2AA3824E00A52E88 /* NotificationViewModel.swift */; };
+		7D449EAD2AA3868700A52E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449EAC2AA3868700A52E88 /* AppDelegate.swift */; };
+		7D449EB02AA387B300A52E88 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D449EAF2AA387B300A52E88 /* CustomError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,14 +26,15 @@
 		7D449E812AA2469100A52E88 /* task3_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task3_appApp.swift; sourceTree = "<group>"; };
 		7D449E852AA2469300A52E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D449E882AA2469300A52E88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7D449E8A2AA2469300A52E88 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		7D449E8D2AA2469300A52E88 /* task3_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task3_app.xcdatamodel; sourceTree = "<group>"; };
 		7D449E942AA246DA00A52E88 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		7D449E982AA24CD300A52E88 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		7D449E9A2AA24D5500A52E88 /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
 		7D449E9C2AA24E1000A52E88 /* MinutesAndSecondsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesAndSecondsPicker.swift; sourceTree = "<group>"; };
-		7D449EA42AA2842300A52E88 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		7D449EA62AA2990300A52E88 /* PlayAndResetButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAndResetButtonGroup.swift; sourceTree = "<group>"; };
+		7D449EA82AA372A000A52E88 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../../../Downloads/song.mp3; sourceTree = "<group>"; };
+		7D449EAA2AA3824E00A52E88 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		7D449EAC2AA3868700A52E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D449EAF2AA387B300A52E88 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +67,12 @@
 		7D449E802AA2469100A52E88 /* task3_app */ = {
 			isa = PBXGroup;
 			children = (
+				7D449EA82AA372A000A52E88 /* song.mp3 */,
 				7D449EA02AA24E9D00A52E88 /* App */,
 				7D449E9F2AA24E9600A52E88 /* ViewModel */,
 				7D449E9E2AA24E8E00A52E88 /* View */,
+				7D449EAE2AA3875600A52E88 /* Utilities */,
 				7D449E852AA2469300A52E88 /* Assets.xcassets */,
-				7D449E8C2AA2469300A52E88 /* task3_app.xcdatamodeld */,
 				7D449E872AA2469300A52E88 /* Preview Content */,
 			);
 			path = task3_app;
@@ -88,7 +91,6 @@
 			children = (
 				7D449EA12AA24EBD00A52E88 /* UIComponents */,
 				7D449E942AA246DA00A52E88 /* TimerView.swift */,
-				7D449EA42AA2842300A52E88 /* TestView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				7D449E9A2AA24D5500A52E88 /* CountdownViewModel.swift */,
+				7D449EAA2AA3824E00A52E88 /* NotificationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -104,8 +107,8 @@
 		7D449EA02AA24E9D00A52E88 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7D449E8A2AA2469300A52E88 /* Persistence.swift */,
 				7D449E812AA2469100A52E88 /* task3_appApp.swift */,
+				7D449EAC2AA3868700A52E88 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -118,6 +121,14 @@
 				7D449EA62AA2990300A52E88 /* PlayAndResetButtonGroup.swift */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		7D449EAE2AA3875600A52E88 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D449EAF2AA387B300A52E88 /* CustomError.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			files = (
 				7D449E892AA2469300A52E88 /* Preview Assets.xcassets in Resources */,
 				7D449E862AA2469300A52E88 /* Assets.xcassets in Resources */,
+				7D449EA92AA372A000A52E88 /* song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,11 +203,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D449E992AA24CD300A52E88 /* CountdownView.swift in Sources */,
+				7D449EAB2AA3824E00A52E88 /* NotificationViewModel.swift in Sources */,
 				7D449E952AA246DA00A52E88 /* TimerView.swift in Sources */,
-				7D449E8E2AA2469300A52E88 /* task3_app.xcdatamodeld in Sources */,
+				7D449EAD2AA3868700A52E88 /* AppDelegate.swift in Sources */,
 				7D449E9B2AA24D5500A52E88 /* CountdownViewModel.swift in Sources */,
-				7D449EA52AA2842300A52E88 /* TestView.swift in Sources */,
-				7D449E8B2AA2469300A52E88 /* Persistence.swift in Sources */,
+				7D449EB02AA387B300A52E88 /* CustomError.swift in Sources */,
 				7D449E9D2AA24E1000A52E88 /* MinutesAndSecondsPicker.swift in Sources */,
 				7D449EA72AA2990300A52E88 /* PlayAndResetButtonGroup.swift in Sources */,
 				7D449E822AA2469100A52E88 /* task3_appApp.swift in Sources */,
@@ -397,19 +409,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7D449E8C2AA2469300A52E88 /* task3_app.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7D449E8D2AA2469300A52E88 /* task3_app.xcdatamodel */,
-			);
-			currentVersion = 7D449E8D2AA2469300A52E88 /* task3_app.xcdatamodel */;
-			path = task3_app.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7D449E762AA2469100A52E88 /* Project object */;
 }
